@@ -27,7 +27,6 @@ function App() {
 
   function handleAddToArmy(bot) {
     const alreadyInClass = army.find(b => b.bot_class === bot.bot_class);
-
     if (alreadyInClass) {
       setSortMessage(`A "${bot.bot_class}" class bot is already in the army.`);
       setTimeout(() => setSortMessage(''), 3000);
@@ -110,7 +109,6 @@ function App() {
       {filterMessage && <div className="filter-message">{filterMessage}</div>}
       {deleteMessage && <div className="delete-message">{deleteMessage}</div>}
       {sortMessage && <p className="sort-message">{sortMessage}</p>}
-
       <div id="wrapper">
         <BotCollection bots={bots} onRender={handleAddToArmy} onDelete={handlePermanentDelete} />
         <YourBotArmy bots={army} onRender={removeFromArmy} onDelete={handlePermanentDelete} />

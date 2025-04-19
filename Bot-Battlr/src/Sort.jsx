@@ -6,10 +6,10 @@ function Sort({ sort, restore }) {
 
   const toggleMenu = () => {
     if (isOpen) {
-      restore(); 
-      setIsOpen(false); 
+      restore();
+      setIsOpen(false);
     } else {
-      setIsOpen(true); 
+      setIsOpen(true);
     }
   };
 

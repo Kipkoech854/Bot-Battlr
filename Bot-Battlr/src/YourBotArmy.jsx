@@ -26,7 +26,7 @@ function YourBotArmy({ bots, onRender, onDelete }) {
   }
 
   return (
-    <div id='army-wrapper'>
+    <div id="army-wrapper">
       <h3>My Bot Army</h3>
       <div id="army-collection">
         {bots.map((bot) => (
