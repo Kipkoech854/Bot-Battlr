@@ -8,7 +8,7 @@ import './App.css';
 
 function App() {
   const [bots, setBots] = useState([]);
-  const [originalBots, setOriginalBots] = useState([]); 
+  const [originalBots, setOriginalBots] = useState([]);
   const [army, setArmy] = useState([]);
   const [activeFilter, setActiveFilter] = useState(null);
   const [filterMessage, setFilterMessage] = useState('');
@@ -27,19 +27,18 @@ function App() {
 
   function handleAddToArmy(bot) {
     const alreadyInClass = army.find(b => b.bot_class === bot.bot_class);
-  
+
     if (alreadyInClass) {
       setSortMessage(`A "${bot.bot_class}" class bot is already in the army.`);
       setTimeout(() => setSortMessage(''), 3000);
       return;
     }
-  
+
     if (!army.find(b => b.id === bot.id)) {
       setArmy([...army, bot]);
       setBots(bots.filter(b => b.id !== bot.id));
     }
   }
-  
 
   function removeFromArmy(bot, index) {
     if (!bots.find(b => b.id === bot.id)) {
@@ -107,22 +106,10 @@ function App() {
     <div>
       <Header />
       <Sort sort={handleSort} restore={restoreOriginalOrder} />
-
       <Filter bots={originalBots} onFilter={handleFilter} />
-      {filterMessage && (
-        <div className="filter-message">
-          {filterMessage}
-        </div>
-      )}
-
-      {deleteMessage && (
-        <div className="delete-message">
-          {deleteMessage}
-        </div>
-      )}
+      {filterMessage && <div className="filter-message">{filterMessage}</div>}
+      {deleteMessage && <div className="delete-message">{deleteMessage}</div>}
       {sortMessage && <p className="sort-message">{sortMessage}</p>}
-
-      
 
       <div id="wrapper">
         <BotCollection bots={bots} onRender={handleAddToArmy} onDelete={handlePermanentDelete} />
