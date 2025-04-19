@@ -58,6 +58,104 @@
   color: white;
 }
 
+.sort-container {
+  position: relative;
+  display: inline-block;
+  margin: 1rem;
+}
+
+.sort-button {
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 6px;
+  background-color: #007bff;
+  color: white;
+  cursor: pointer;
+}
+
+.sort-menu {
+  display: none;
+  position: absolute;
+  top: 110%;
+  left: 0;
+  background: white;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  z-index: 10;
+}
+
+.sort-container:hover .sort-menu {
+  display: block;
+}
+
+.sort-option {
+  position: relative;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+}
+
+.sort-option:hover {
+  background-color: #f1f1f1;
+}
+
+.sort-submenu {
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 100%;
+  background: white;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  z-index: 10;
+}
+
+.sort-option:hover .sort-submenu {
+  display: block;
+}
+
+.sort-submenu div {
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+}
+
+.sort-submenu div:hover {
+  background-color: #eee;
+}
+.filter-container {
+  position: relative;
+  display: inline-block;
+}
+
+.filter-button {
+  padding: 8px 12px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.filter-menu {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: white;
+  border: 1px solid #ccc;
+  z-index: 10;
+  border-radius: 4px;
+  margin-top: 0.2rem;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.filter-option {
+  padding: 8px 12px;
+  cursor: pointer;
+}
+
+.filter-option:hover {
+  background-color: #f0f0f0;
+}
 
 
 /*#bot-collection {
