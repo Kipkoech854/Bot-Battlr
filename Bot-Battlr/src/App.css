@@ -2,8 +2,62 @@
   background-color: rgb(31, 31, 175);
   color: white;
 }
+#wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  border: 1px solid #ccc;
+  padding: 0.5rem;
+  border-radius: 8px;
+  text-align: center;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
 
 #bot-collection {
+  max-width: 715px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  border: 1px solid #ccc;
+  padding: 0.5rem;
+  border-radius: 8px;
+  text-align: center;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  /*background-image: URL("https://media.istockphoto.com/id/1407950020/photo/circuit-pattern-on-a-human-face-on-dark-background.jpg?s=612x612&w=0&k=20&c=ylt4mCFkXIbKfBdb2Gpb2T4sIZVDKKiefSdlZ7Ta4N8=");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;*/
+}
+#poster{
+  background-image: URL("https://media.istockphoto.com/id/1194284756/photo/abstract-digital-human-face.jpg?s=612x612&w=0&k=20&c=2qDZeE5T9MWtFn64tCEeF71prgi72EhfhytEAwdrn2s=");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  color: white;
+}
+
+#army-collection {
+  max-width: 536px;
+  align-self: flex-end;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  border: 1px solid #ccc;
+  padding: 0.5rem;
+  border-radius: 8px;
+  text-align: center;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+#army-poster {
+  background-image: URL("https://media.istockphoto.com/id/2170170558/photo/digital-human-concept-for-ai-metaverse-and-facial-recognition-technology.jpg?s=612x612&w=0&k=20&c=YVnGYKn3tGDtnR34J2fv9hnqlBZ2u9XX8oM7JbLkLgQ=");
+  background-repeat: no-repeat;
+  background-position: center;
+  color: white;
+}
+
+
+
+/*#bot-collection {
   display: flex;
   flex-wrap: wrap;
   gap: 1rem;
@@ -16,15 +70,26 @@
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   
 }
-
-
-/*.bot-card {
+#army-collection {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  max-width: 536px;
   border: 1px solid #ccc;
-  margin: 0.5rem;
+  margin: 0.5rem ; 
   padding: 0.5rem;
   border-radius: 8px;
-  width: 180px;
   text-align: center;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin-left: 57%;
+  margin-top: -639.5%;
+  align-items: flex-start;
+  align-content: end;
 }
+ /*#army-wrapper h3{
+  margin-left: 58%;
+  margin-top: -665%;
+ }
+
+
 

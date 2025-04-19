@@ -1,7 +1,7 @@
 import React from 'react'
 import'./App.css'
 
-function header() {
+function Header() {
   return (
     <div id = "header">
       <h1>Bot Battlr</h1>
@@ -10,4 +10,4 @@ function header() {
   )
 }
 
-export default header
+export default Header
