@@ -39,14 +39,24 @@ function BotCollection({ bots, onRender, onDelete }) {
                 <p><strong>Damage:</strong> {bot.damage}</p>
                 <p><strong>Armor:</strong> {bot.armor}</p>
                 <p><strong>Class:</strong> {bot.bot_class}</p>
-                <button className="add-collectionbutton" onClick={(e) => {
-                  e.stopPropagation();
-                  onRender(bot);
-                }}>Add to Army</button>
-                <button onClick={(e) => {
-                  e.stopPropagation();
-                  onDelete(bot);
-                }} id="permanent-delete">❌</button>
+                <button
+                  className="add-collectionbutton"
+                  onClick={(e) => {
+                    e.stopPropagation();
+                    onRender(bot);
+                  }}
+                >
+                  Add to Army
+                </button>
+                <button
+                  id="permanent-delete"
+                  onClick={(e) => {
+                    e.stopPropagation();
+                    onDelete(bot);
+                  }}
+                >
+                  ❌
+                </button>
               </div>
             </button>
           </div>

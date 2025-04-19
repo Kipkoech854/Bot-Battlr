@@ -3,6 +3,7 @@
   color: white;
   max-height: 140px;
 }
+
 #wrapper {
   display: flex;
   flex-wrap: wrap;
@@ -16,8 +17,6 @@
 
 #bot-collection {
   max-width: 715px;
-<<<<<<< HEAD
-=======
   display: flex;
   flex-wrap: wrap;
   gap: 1rem;
@@ -26,13 +25,10 @@
   border-radius: 8px;
   text-align: center;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  /*background-image: URL("https://media.istockphoto.com/id/1407950020/photo/circuit-pattern-on-a-human-face-on-dark-background.jpg?s=612x612&w=0&k=20&c=ylt4mCFkXIbKfBdb2Gpb2T4sIZVDKKiefSdlZ7Ta4N8=");
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;*/
 }
-#poster{
-  background-image: URL("https://media.istockphoto.com/id/1194284756/photo/abstract-digital-human-face.jpg?s=612x612&w=0&k=20&c=2qDZeE5T9MWtFn64tCEeF71prgi72EhfhytEAwdrn2s=");
+
+#poster {
+  background-image: url("https://media.istockphoto.com/id/1194284756/photo/abstract-digital-human-face.jpg?s=612x612&w=0&k=20&c=2qDZeE5T9MWtFn64tCEeF71prgi72EhfhytEAwdrn2s=");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -51,161 +47,9 @@
   text-align: center;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
+
 #army-poster {
-  background-image: URL("https://media.istockphoto.com/id/2170170558/photo/digital-human-concept-for-ai-metaverse-and-facial-recognition-technology.jpg?s=612x612&w=0&k=20&c=YVnGYKn3tGDtnR34J2fv9hnqlBZ2u9XX8oM7JbLkLgQ=");
-  background-repeat: no-repeat;
-  background-position: center;
-  color: white;
-}
-
-.sort-container {
-  position: relative;
-  display: inline-block;
-  margin: 1rem;
-}
-
-.sort-button {
-  padding: 0.5rem 1rem;
-  border: none;
-  border-radius: 6px;
-  background-color: #007bff;
-  color: white;
-  cursor: pointer;
-}
-
-.sort-menu {
-  display: none;
-  position: absolute;
-  top: 110%;
-  left: 0;
-  background: white;
-  border: 1px solid #ccc;
-  border-radius: 6px;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
-  z-index: 10;
-}
-
-.sort-container:hover .sort-menu {
-  display: block;
-}
-
-.sort-option {
-  position: relative;
-  padding: 0.5rem 1rem;
-  cursor: pointer;
-}
-
-.sort-option:hover {
-  background-color: #f1f1f1;
-}
-
-.sort-submenu {
-  display: none;
-  position: absolute;
-  top: 0;
-  left: 100%;
-  background: white;
-  border: 1px solid #ccc;
-  border-radius: 6px;
-  z-index: 10;
-}
-
-.sort-option:hover .sort-submenu {
-  display: block;
-}
-
-.sort-submenu div {
-  padding: 0.5rem 1rem;
-  cursor: pointer;
-}
-
-.sort-submenu div:hover {
-  background-color: #eee;
-}
-.filter-container {
-  position: relative;
-  display: inline-block;
-}
-
-.filter-button {
-  padding: 8px 12px;
-  background-color: #007bff;
-  color: white;
-  border: none;
-  border-radius: 4px;
-  cursor: pointer;
-}
-
-.filter-menu {
-  position: absolute;
-  top: 100%;
-  left: 0;
-  background-color: white;
-  border: 1px solid #ccc;
-  z-index: 10;
-  border-radius: 4px;
-  margin-top: 0.2rem;
-  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-}
-
-.filter-option {
-  padding: 8px 12px;
-  cursor: pointer;
-}
-
-.filter-option:hover {
-  background-color: #f0f0f0;
-}
-
-
-/*#bot-collection {
->>>>>>> 31a850a8 (this is my first commit)
-  display: flex;
-  flex-wrap: wrap;
-  gap: 1rem;
-  border: 1px solid #ccc;
-  padding: 0.5rem;
-  border-radius: 8px;
-  text-align: center;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  
-}
-<<<<<<< HEAD
-#poster{
-  background-image: URL("https://media.istockphoto.com/id/1194284756/photo/abstract-digital-human-face.jpg?s=612x612&w=0&k=20&c=2qDZeE5T9MWtFn64tCEeF71prgi72EhfhytEAwdrn2s=");
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-  color: white;
-  
-
-}
-
-#army-collection {
-  max-width: 550px;
-  align-self: flex-end;
-  display: flex;
-  flex-wrap: wrap;
-  gap: 1rem;
-  border: 1px solid #ccc;
-=======
-#army-collection {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 1rem;
-  max-width: 536px;
-  border: 1px solid #ccc;
-  margin: 0.5rem ; 
->>>>>>> 31a850a8 (this is my first commit)
-  padding: 0.5rem;
-  border-radius: 8px;
-  text-align: center;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-<<<<<<< HEAD
-  justify-content: space-evenly;
-}
-#army-poster {
-  background-image: URL("https://media.istockphoto.com/id/2170170558/photo/digital-human-concept-for-ai-metaverse-and-facial-recognition-technology.jpg?s=612x612&w=0&k=20&c=YVnGYKn3tGDtnR34J2fv9hnqlBZ2u9XX8oM7JbLkLgQ=");
+  background-image: url("https://media.istockphoto.com/id/2170170558/photo/digital-human-concept-for-ai-metaverse-and-facial-recognition-technology.jpg?s=612x612&w=0&k=20&c=YVnGYKn3tGDtnR34J2fv9hnqlBZ2u9XX8oM7JbLkLgQ=");
   background-repeat: no-repeat;
   background-position: center;
   color: white;
@@ -228,7 +72,6 @@
 }
 
 .sort-menu {
-  display: none;
   position: absolute;
   top: 110%;
   left: 0;
@@ -237,10 +80,6 @@
   border-radius: 6px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
   z-index: 10;
-}
-
-.sort-container:hover .sort-menu {
-  display: block;
 }
 
 .sort-option {
@@ -276,12 +115,20 @@
 .sort-submenu div:hover {
   background-color: #eee;
 }
-.filter-container {
-  position: relative;
-  display: inline-block;
-  
+
+.sort-message {
+  margin: 0.5rem 1rem;
+  font-style: italic;
+  color: #444;
+  background-color: red;
+  padding: 0.4rem 0.8rem;
+  border-left: 4px solid #007acc;
+  border-radius: 4px;
+  width: fit-content;
+  align-content: center;
 }
 
+.filter-container,
 .filter-wrapper {
   position: relative;
   display: inline-block;
@@ -296,19 +143,7 @@
   padding: 0.5rem;
   z-index: 10;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-=======
-  margin-left: 57%;
-  margin-top: -639.5%;
-  align-items: flex-start;
-  align-content: end;
->>>>>>> 31a850a8 (this is my first commit)
 }
- /*#army-wrapper h3{
-  margin-left: 58%;
-  margin-top: -665%;
- }
-
-
 
 .filter-option {
   padding: 0.3rem;
@@ -320,6 +155,7 @@
   background-color: #eee;
   font-weight: bold;
 }
+
 .delete-message {
   background-color: #ffe0e0;
   color: #b30000;
@@ -330,6 +166,7 @@
   font-weight: bold;
   text-align: center;
 }
+
 .filter-message {
   background-color: #e0f7ff;
   color: #0077b6;
@@ -340,6 +177,7 @@
   font-weight: bold;
   text-align: center;
 }
+
 .details-wrapper {
   padding: 2rem;
   margin: 2rem auto;
@@ -382,6 +220,7 @@
 .back-button:hover {
   background-color: #005f91;
 }
+
 #permanent-delete {
   position: relative;
   cursor: pointer;
@@ -405,6 +244,7 @@
   z-index: 1;
   box-shadow: 0px 2px 5px rgba(0,0,0,0.2);
 }
+
 #add-armybutton:hover {
   background-color: green;
   color: white;
@@ -417,15 +257,4 @@
   color: white;
   transform: translateX(2%);
   transition: all 0.3s ease;
-}
-.sort-message {
-  margin: 0.5rem 1rem;
-  font-style: italic;
-  color: #444;
-  background-color: Red;
-  padding: 0.4rem 0.8rem;
-  border-left: 4px solid #007acc;
-  border-radius: 4px;
-  width: fit-content;
-  align-content: center;
 }

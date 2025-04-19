@@ -21,7 +21,7 @@ function Sort({ sort, restore }) {
   return (
     <div className="sort-container">
       <button className="sort-button" onClick={toggleMenu}>
-        {isOpen ? 'Restore  Order' : 'Sort '}
+        {isOpen ? 'Restore Order' : 'Sort'}
       </button>
       {isOpen && (
         <div className="sort-menu">

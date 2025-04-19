@@ -39,8 +39,24 @@ function YourBotArmy({ bots, onRender, onDelete }) {
                 <p><strong>Damage:</strong> {bot.damage}</p>
                 <p><strong>Armor:</strong> {bot.armor}</p>
                 <p><strong>Class:</strong> {bot.bot_class}</p>
-                <button className="add-armybutton" onClick={(e) => { e.stopPropagation(); onRender(bot); }}>Remove from Army</button>
-                <button id="permanent-delete" onClick={() => onDelete(bot)}>❌</button>
+                <button
+                  className="add-armybutton"
+                  onClick={(e) => {
+                    e.stopPropagation();
+                    onRender(bot);
+                  }}
+                >
+                  Remove from Army
+                </button>
+                <button
+                  id="permanent-delete"
+                  onClick={(e) => {
+                    e.stopPropagation();
+                    onDelete(bot);
+                  }}
+                >
+                  ❌
+                </button>
               </div>
             </button>
           </div>

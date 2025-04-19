@@ -106,7 +106,7 @@ function App() {
     <div>
       <Header />
       <Sort sort={handleSort} restore={restoreOriginalOrder} />
-      <Filter bots={originalBots} onFilter={handleFilter} />
+      <Filter bots={originalBots} onFilter={handleFilter} activeFilter={activeFilter} />
       {filterMessage && <div className="filter-message">{filterMessage}</div>}
       {deleteMessage && <div className="delete-message">{deleteMessage}</div>}
       {sortMessage && <p className="sort-message">{sortMessage}</p>}
