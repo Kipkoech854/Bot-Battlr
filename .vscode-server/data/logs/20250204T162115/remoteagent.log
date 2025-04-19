@@ -1,0 +1,19 @@
+2025-02-04 16:21:15.584 [info] 
+
+
+
+
+2025-02-04 16:21:15.602 [info] Extension host agent started.
+2025-02-04 16:21:15.714 [info] Started initializing default profile extensions in extensions installation folder. file:///home/gideon/.vscode-server/extensions
+2025-02-04 16:21:15.764 [info] Completed initializing default profile extensions in extensions installation folder. file:///home/gideon/.vscode-server/extensions
+2025-02-04 16:21:15.824 [info] [127.0.0.1][496905ff][ManagementConnection] New connection established.
+2025-02-04 16:21:16.094 [info] [127.0.0.1][39372aed][ExtensionHostConnection] New connection established.
+2025-02-04 16:21:16.398 [info] [127.0.0.1][39372aed][ExtensionHostConnection] <12349> Launched Extension Host Process.
+2025-02-04 16:21:18.230 [error] [network] #2: https://mobile.events.data.microsoft.com/OneCollector/1.0?cors=true&content-type=application/x-json-stream - error POST AggregateError [ETIMEDOUT]: 
+2025-02-04 16:21:21.211 [error] [network] #3: https://mobile.events.data.microsoft.com/OneCollector/1.0?cors=true&content-type=application/x-json-stream - error POST AggregateError [ETIMEDOUT]: 
+2025-02-04 16:40:32.512 [info] [127.0.0.1][39372aed][ExtensionHostConnection] The client has reconnected.
+2025-02-04 16:40:32.515 [info] [127.0.0.1][496905ff][ManagementConnection] The client has reconnected.
+2025-02-05 08:45:15.628 [info] [127.0.0.1][39372aed][ExtensionHostConnection] The client has reconnected.
+2025-02-05 08:45:16.430 [info] [127.0.0.1][496905ff][ManagementConnection] The client has reconnected.
+2025-02-05 08:52:19.403 [info] [127.0.0.1][496905ff][ManagementConnection] The client has reconnected.
+2025-02-05 08:52:19.431 [info] [127.0.0.1][39372aed][ExtensionHostConnection] The client has reconnected.

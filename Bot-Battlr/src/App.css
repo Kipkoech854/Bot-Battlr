@@ -1,0 +1,30 @@
+#header {
+  background-color: rgb(31, 31, 175);
+  color: white;
+}
+
+#bot-collection {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  max-width: 715px;
+  border: 1px solid #ccc;
+  margin: 0.5rem ; 
+  padding: 0.5rem;
+  border-radius: 8px;
+  text-align: center;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  
+}
+
+
+/*.bot-card {
+  border: 1px solid #ccc;
+  margin: 0.5rem;
+  padding: 0.5rem;
+  border-radius: 8px;
+  width: 180px;
+  text-align: center;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+

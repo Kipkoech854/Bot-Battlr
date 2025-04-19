@@ -1,0 +1,43 @@
+2025-02-05 15:56:25.382 [info] 
+
+
+
+
+2025-02-05 15:56:25.401 [info] Extension host agent started.
+2025-02-05 15:56:25.556 [info] [127.0.0.1][32b6b33d][ManagementConnection] New connection established.
+2025-02-05 15:56:25.932 [info] [127.0.0.1][6d6b091b][ExtensionHostConnection] New connection established.
+2025-02-05 15:56:26.315 [info] [127.0.0.1][6d6b091b][ExtensionHostConnection] <1706> Launched Extension Host Process.
+2025-02-05 15:56:27.786 [error] [network] #2: https://mobile.events.data.microsoft.com/OneCollector/1.0?cors=true&content-type=application/x-json-stream - error POST AggregateError [ETIMEDOUT]: 
+2025-02-05 15:56:31.615 [error] [network] #3: https://mobile.events.data.microsoft.com/OneCollector/1.0?cors=true&content-type=application/x-json-stream - error POST AggregateError [ETIMEDOUT]: 
+2025-02-05 15:56:53.763 [info] [127.0.0.1][6d6b091b][ExtensionHostConnection] The client has reconnected.
+2025-02-05 15:56:53.885 [info] [127.0.0.1][32b6b33d][ManagementConnection] The client has reconnected.
+2025-02-06 14:56:08.621 [info] [127.0.0.1][6d6b091b][ExtensionHostConnection] The client has reconnected.
+2025-02-06 14:56:08.830 [info] [127.0.0.1][32b6b33d][ManagementConnection] The client has reconnected.
+2025-02-06 14:58:37.866 [info] [127.0.0.1][6d6b091b][ExtensionHostConnection] The client has reconnected.
+2025-02-06 14:58:37.875 [info] [127.0.0.1][32b6b33d][ManagementConnection] The client has reconnected.
+2025-02-06 14:58:44.894 [info] [127.0.0.1][6d6b091b][ExtensionHostConnection] The client has reconnected.
+2025-02-06 14:58:44.992 [info] [127.0.0.1][32b6b33d][ManagementConnection] The client has reconnected.
+2025-02-07 09:21:42.992 [info] [127.0.0.1][32b6b33d][ManagementConnection] The client has disconnected, will wait for reconnection 3h before disposing...
+2025-02-07 09:21:43.635 [info] [127.0.0.1][32b6b33d][ManagementConnection] Another client has connected, will shorten the wait for reconnection 5m before disposing...
+2025-02-07 09:21:43.636 [info] [127.0.0.1][32b6b33d][ManagementConnection] The client has reconnected.
+2025-02-07 09:21:43.643 [info] [127.0.0.1][6d6b091b][ExtensionHostConnection] The client has reconnected.
+2025-02-07 09:28:20.455 [error] Error: read ECONNRESET
+    at TCP.onStreamRead (node:internal/stream_base_commons:218:20)
+2025-02-07 09:28:20.618 [info] [127.0.0.1][32b6b33d][ManagementConnection] The client has disconnected, will wait for reconnection 3h before disposing...
+2025-02-07 09:28:23.908 [info] [127.0.0.1][32b6b33d][ManagementConnection] Another client has connected, will shorten the wait for reconnection 5m before disposing...
+2025-02-07 09:28:23.915 [info] [127.0.0.1][32b6b33d][ManagementConnection] The client has reconnected.
+2025-02-07 09:28:23.923 [info] [127.0.0.1][6d6b091b][ExtensionHostConnection] The client has reconnected.
+2025-02-07 09:46:57.490 [info] [127.0.0.1][6d6b091b][ExtensionHostConnection] The client has reconnected.
+2025-02-07 09:46:57.701 [info] [127.0.0.1][32b6b33d][ManagementConnection] The client has reconnected.
+2025-02-09 20:18:41.773 [info] [127.0.0.1][32b6b33d][ManagementConnection] The client has disconnected, will wait for reconnection 3h before disposing...
+2025-02-09 20:24:09.252 [info] [127.0.0.1][32b6b33d][ManagementConnection] Another client has connected, will shorten the wait for reconnection 5m before disposing...
+2025-02-09 20:24:09.267 [info] [127.0.0.1][6d6b091b][ExtensionHostConnection] The client has reconnected.
+2025-02-09 20:24:29.608 [info] [127.0.0.1][32b6b33d][ManagementConnection] The client has reconnected.
+2025-02-09 21:06:14.692 [info] [127.0.0.1][32b6b33d][ManagementConnection] The client has reconnected.
+2025-02-09 21:06:14.702 [info] [127.0.0.1][6d6b091b][ExtensionHostConnection] The client has reconnected.
+2025-02-09 22:06:45.029 [info] [127.0.0.1][32b6b33d][ManagementConnection] The client has reconnected.
+2025-02-09 22:06:45.178 [info] [127.0.0.1][6d6b091b][ExtensionHostConnection] The client has reconnected.
+2025-02-09 22:07:05.254 [info] [127.0.0.1][6d6b091b][ExtensionHostConnection] The client has reconnected.
+2025-02-09 22:07:05.273 [info] [127.0.0.1][32b6b33d][ManagementConnection] The client has reconnected.
+2025-02-09 22:33:25.961 [info] [127.0.0.1][32b6b33d][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2025-02-09 22:33:26.629 [info] [127.0.0.1][6d6b091b][ExtensionHostConnection] <1706> Extension Host Process exited with code: 0, signal: null.
