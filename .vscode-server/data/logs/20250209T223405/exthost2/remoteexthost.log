@@ -1,0 +1,6 @@
+2025-02-09 22:35:53.521 [info] Extension host with pid 1182 started
+2025-02-09 22:35:53.521 [info] Eager extensions activated
+2025-02-09 22:35:53.564 [info] Lock '/home/gideon/.vscode-server/data/User/workspaceStorage/8e8e472f14bdffbcd9804c252fb64aab/vscode.lock': Lock acquired.
+2025-02-09 22:48:06.059 [info] Extension host terminating: received terminate message from renderer
+2025-02-09 22:48:06.066 [info] Lock '/home/gideon/.vscode-server/data/User/workspaceStorage/8e8e472f14bdffbcd9804c252fb64aab/vscode.lock': Marking the lockfile as scheduled to be released in 6000 ms.
+2025-02-09 22:48:06.069 [info] Extension host with pid 1182 exiting with code 0

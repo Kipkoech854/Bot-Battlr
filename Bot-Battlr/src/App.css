@@ -1,0 +1,264 @@
+#header {
+  background-image: url("https://images.unsplash.com/photo-1658243766433-0144532e850c?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8Ym90fGVufDB8fDB8fHww");
+  color: white;
+  max-height: 140px;
+}
+#wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  border: 1px solid #ccc;
+  padding: 0.5rem;
+  border-radius: 8px;
+  text-align: center;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+#bot-collection {
+  max-width: 715px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  border: 1px solid #ccc;
+  padding: 0.5rem;
+  border-radius: 8px;
+  text-align: center;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  
+}
+#poster{
+  background-image: URL("https://media.istockphoto.com/id/1194284756/photo/abstract-digital-human-face.jpg?s=612x612&w=0&k=20&c=2qDZeE5T9MWtFn64tCEeF71prgi72EhfhytEAwdrn2s=");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  color: white;
+  
+
+}
+
+#army-collection {
+  max-width: 550px;
+  align-self: flex-end;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  border: 1px solid #ccc;
+  padding: 0.5rem;
+  border-radius: 8px;
+  text-align: center;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  justify-content: space-evenly;
+}
+#army-poster {
+  background-image: URL("https://media.istockphoto.com/id/2170170558/photo/digital-human-concept-for-ai-metaverse-and-facial-recognition-technology.jpg?s=612x612&w=0&k=20&c=YVnGYKn3tGDtnR34J2fv9hnqlBZ2u9XX8oM7JbLkLgQ=");
+  background-repeat: no-repeat;
+  background-position: center;
+  color: white;
+  max-width: 137px;
+}
+
+.sort-container {
+  position: relative;
+  display: inline-block;
+  margin: 1rem;
+}
+
+.sort-button {
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 6px;
+  background-color: #007bff;
+  color: white;
+  cursor: pointer;
+}
+
+.sort-menu {
+  display: none;
+  position: absolute;
+  top: 110%;
+  left: 0;
+  background: white;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  z-index: 10;
+}
+
+.sort-container:hover .sort-menu {
+  display: block;
+}
+
+.sort-option {
+  position: relative;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+}
+
+.sort-option:hover {
+  background-color: #f1f1f1;
+}
+
+.sort-submenu {
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 100%;
+  background: white;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  z-index: 10;
+}
+
+.sort-option:hover .sort-submenu {
+  display: block;
+}
+
+.sort-submenu div {
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+}
+
+.sort-submenu div:hover {
+  background-color: #eee;
+}
+.filter-container {
+  position: relative;
+  display: inline-block;
+  
+}
+
+.filter-wrapper {
+  position: relative;
+  display: inline-block;
+}
+
+.filter-menu {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: aqua;
+  border: 1px solid #ccc;
+  padding: 0.5rem;
+  z-index: 10;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.filter-option {
+  padding: 0.3rem;
+  cursor: pointer;
+}
+
+.filter-option:hover,
+.filter-option.active {
+  background-color: #eee;
+  font-weight: bold;
+}
+.delete-message {
+  background-color: #ffe0e0;
+  color: #b30000;
+  padding: 10px;
+  margin: 1rem;
+  border: 1px solid #ffb3b3;
+  border-radius: 5px;
+  font-weight: bold;
+  text-align: center;
+}
+.filter-message {
+  background-color: #e0f7ff;
+  color: #0077b6;
+  padding: 10px;
+  margin: 1rem auto;
+  width: fit-content;
+  border-radius: 5px;
+  font-weight: bold;
+  text-align: center;
+}
+.details-wrapper {
+  padding: 2rem;
+  margin: 2rem auto;
+  max-width: 500px;
+  text-align: center;
+  background-image: url("https://images.unsplash.com/photo-1684369175833-4b445ad6bfb5?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTF8fGJvdHxlbnwwfHwwfHx8MA%3D%3D");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 15px;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+}
+
+.pop-animation {
+  animation: pop 0.3s ease-out;
+  transform: scale(1.05);
+}
+
+@keyframes pop {
+  0% {
+    transform: scale(0.7);
+    opacity: 0;
+  }
+  100% {
+    transform: scale(1.05);
+    opacity: 1;
+  }
+}
+
+.back-button {
+  margin-top: 1.5rem;
+  padding: 10px 15px;
+  background-color: #0077b6;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.back-button:hover {
+  background-color: #005f91;
+}
+#permanent-delete {
+  position: relative;
+  cursor: pointer;
+  background: transparent;
+  border: none;
+  font-size: 1.2rem;
+}
+
+#permanent-delete:hover::after {
+  content: "Delete";
+  position: absolute;
+  top: 120%;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: #ffdddd;
+  color: #b30000;
+  padding: 4px 8px;
+  border-radius: 4px;
+  font-size: 0.8rem;
+  white-space: nowrap;
+  z-index: 1;
+  box-shadow: 0px 2px 5px rgba(0,0,0,0.2);
+}
+#add-armybutton:hover {
+  background-color: green;
+  color: white;
+  transform: translateX(2px);
+  transition: all 0.3s ease;
+}
+
+#add-collectionbutton:hover {
+  background-color: red;
+  color: white;
+  transform: translateX(2%);
+  transition: all 0.3s ease;
+}
+.sort-message {
+  margin: 0.5rem 1rem;
+  font-style: italic;
+  color: #444;
+  background-color: Red;
+  padding: 0.4rem 0.8rem;
+  border-left: 4px solid #007acc;
+  border-radius: 4px;
+  width: fit-content;
+  align-content: center;
+}
