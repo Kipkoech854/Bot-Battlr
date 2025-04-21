@@ -178,7 +178,10 @@
   margin: 2rem auto;
   max-width: 500px;
   text-align: center;
-  background-color: #fdfdfd;
+  background-image: url("https://images.unsplash.com/photo-1684369175833-4b445ad6bfb5?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTF8fGJvdHxlbnwwfHwwfHx8MA%3D%3D");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
   border-radius: 15px;
   box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
 }
